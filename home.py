@@ -24,6 +24,12 @@ def main():
     choice = st.sidebar.selectbox("Menu",menu)
     if choice == "Home":
         st.subheader("Home Menu")
+        st.subheader("Kelompok 2")
+        st.write("""
+        1. Yanrie Avidianto \n
+        2. Hafidza Mubina \n
+        3. Nunung Nurjanah \n
+        4. Bagusta Alvian""")
 
     elif choice == "EDA":
         run_eda_app()
